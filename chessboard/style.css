@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.chesscontainer {
+    width: 642px;
+    height: 642px;
+    display: block;
+    border: 1px solid black;
+}
+.main{
+   width:80px;
+   height:80px;
+   float:left; 
+   text-align: center;
+}
+
+.black {
+    background-color:#f2e8d7;
+
+}
+.brown{
+    background-color:	#f5be91;
+}
+
+
+
+
