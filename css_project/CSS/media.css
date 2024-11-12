@@ -1,175 +1,191 @@
-/* Laptops (769px - 1279px) */
-@media (min-width: 769px) and (max-width: 1279px) {
-
+/* Small Phones (0) */
+@media (min-width:0px) {
 
   /* banner section */
   .banner {
-    padding: 100px 80px;
+    padding: 60px 20px;
+    background-attachment: scroll;
     background-image: url(../images/background_1.jpg);
     background-position: cover;
   }
 
   .banner-content h1 {
-    font-size: 80px;
-    line-height: 90px;
+    font-size: 36px;
+    line-height: 44px;
   }
 
   .banner-content p {
-    font-size: 24px;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    font-size: 16px;
   }
 
   .banner-content a {
-    padding: 15px 30px;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   /* card section */
   .service {
-    padding: 100px 80px;
+    padding: 60px 20px;
   }
 
   .service-card {
-    width: 45%;
-    height: 300px;
-    margin-bottom: 30px;
-  }
-
-
-
-  .service-card-header {
-    font-size: 28px;
-  }
-
-  .serivce-card-paragraph {
-    font-size: 18px;
-  }
-
-  /* about-us */
-  .about {
-    /* flex-direction: row; */
-    padding: 75px 100px;
-  }
-
-  .image1 {
-    width: 50%;
-  }
-
-  .about-us-text {
-    width: 50%;
-    margin-left: 30px;
-  }
-
-  .about-us {
-    font-size: 48px;
-  }
-
-  .about-us-text .contain {
-    font-size: 18px;
-  }
-
-  /* ideas & plans */
-  .professionals {
-    padding: 100px 60px;
-    flex-direction: row;
-  }
-
-  .container {
-    align-items: flex-start;
-  }
-
-  .professional-heading {
-    font-size: 40px;
-  }
-
-  .professional-paragrph {
-    font-size: 18px;
-  }
-
-  .profess-parts-icon {
-    font-size: 60px;
-  }
-
-  .professional-images {
-    width: 50%;
-    padding-left: 30px;
-  }
-
-  /* fectures section */
-  .section-features {
-    padding: 100px 60px;
-  }
-
-  .fectures-intro {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .fecture-heading {
-    font-size: 40px;
-  }
-
-  .fecture-paragraph {
-    font-size: 18px;
-  }
-
-  .fectures-name {
-    height: auto;
-    font-size: 20px;
-    padding-top: 23px;
-    padding-left: 30px;
-    margin-top: 20px;
-  }
-
-  .fectures-icorn {
-    font-size: 34px;
-  }
-
-  /* Portfolio  */
-  .portfolio-section {
-    padding: 100px 60px;
-  }
-
-  .portfolio-heading {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .portfolio-paragraph {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-
-  .portfolio-item {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .pi-img {
-    width: 30%;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
 
-   /* watch the video */
-   .video-contain {
-    padding: 100px 60px;
+  .service-card-header {
+    font-size: 24px;
+  }
+
+  .serivce-card-paragraph {
+    font-size: 16px;
+  }
+
+  /* about-us */
+  .about {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .image1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .about-us {
+    font-size: 36px;
+    text-align:center;
+  }
+
+  .about-us-text {
+    width:auto;
+  }
+
+  .about-us-text .contain {
+    font-size: 16px;
+  }
+
+  /* ideas&plans */
+  .professionals {
+    padding: 50px 20px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .professional-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .professional-paragrph {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .profess-parts {
+    flex-direction: row;
+  }
+
+  .profess-parts-icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+  }
+
+  .ideas-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .ideas-paragrph {
+    font-size: 16px;
+  
+  }
+
+  .professional-images {
+    width:auto;
+    margin-top: 30px;
+  }
+
+  /* fectures section */
+  .section-features {
+    padding: 50px 20px;
+  }
+
+  .fectures-intro {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .fecture-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .fecture-paragraph {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .fectures-name {
+    height: auto;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-top: 15px;
+  }
+
+  .fectures-icorn {
+    font-size: 30px;
+  }
+
+  /* Portfolio  */
+  .portfolio-section {
+    padding: 50px 20px;
+  }
+
+  .portfolio-heading {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .portfolio-paragraph {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .portfolio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pi-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  /* watch the video */
+  .video-contain {
+    padding: 50px 20px;
   }
 
   .video-heading {
-    font-size: 40px;
+    font-size: 28px;
   }
 
   .video-paragraph {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
 
   .video-img {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -179,134 +195,130 @@
   }
 
   .play-button {
-    font-size: 38px;
-    padding: 14px;
+    font-size: 30px;
+    padding: 10px;
   }
 
   /*  Customer Testimonials */
   .customer-testimonials {
-    padding: 80px 60px;
+    padding: 50px 20px;
   }
 
   .customer-handing {
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
   }
 
   .customer-paragraph {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
   }
 
-  .customer-card-review-row1,
-  .customer-card-review-row2 {
-    display: flex;
-    justify-content: space-between;
-  }
-
   .customer-review-card {
-    width: 30%;
+    width: 100%;
     margin-bottom: 30px;
     height: auto;
   }
 
   .customer-face {
-    width: 90px;
-    height: 90px;
-    margin-top: 30px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
   }
 
   .customer-name-handing {
-    font-size: 24px;
-    margin-top: 25px;
+    font-size: 22px;
+    margin-top: 20px;
   }
 
   .review-star {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /* talking */
   .talking {
-    padding: 100px 60px;
+    padding: 60px 0px;
+    
   }
 
   .form-section {
-    width: 50%;
-    padding: 20px;
+    width:50%;
+    padding: 10px;
   }
 
   .talking-headers {
-    font-size: 40px;
+    font-size: 28px;
     text-align: center;
   }
 
   .talking-paragraph {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   form input {
-    padding: 16px;
-    margin-bottom: 10px;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 12px;
   }
 
   form button {
-    width: 160px;
-    padding: 24px;
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
   }
 
   .image-section {
-    width: 50%;
+    width:50%;
+    margin-top: 20px;
     justify-content: center;
   }
-
-  .talking-image {
-    width: 90%;
-    max-width: 500px;
+  
+  .image-section .talking-image {
+    width: 316px;
     height: auto;
   }
-
+  /* iframe */
+  .map iframe {
+    height: 250px;
+  }
+    
   /* Contact */
-  .contact {
-    padding: 100px 40px;
-  }
-
-  .contact-item {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .information-card {
-    width: 30%; 
-  }
-
-  .contact-card-header {
-    font-size: 28px; 
-  }
-
-  .contact-card-paragraph {
-    font-size: 19px; 
-  }
-
-  /* footer */
-  .footers {
-    padding: 5px 80px; 
-  }
-
-  .footers-intro {
-    font-size: 18px; 
-    text-align: left; 
-  }
-
-  .footer-theme {
-    font-size: 18px; 
-  }
-}
-
-/* Tablets (481px - 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
+    .contact {
+      padding: 60px 20px; 
+    }
+    .information-card {
+     width: 100%; 
+      margin-top: 15px;
+    }
   
+    .contact-card-header {
+      font-size: 24px; 
+    }
+  
+    .contact-card-paragraph {
+      font-size: 18px; 
+    }
+  
+    /* footer */
+    .footers {
+      padding: 5px 20px; 
+    }
+  
+    .footers-intro {
+      font-size: 16px;
+      text-align: center; 
+    }
+  
+    .footer-theme {
+      font-size: 14px; 
+    }
+  }
+
+ /* Tablets (481px) */
+ @media (min-width: 481px){
+    
   /* banner section */
   .banner {
     padding: 80px 50px;
@@ -319,15 +331,10 @@
     font-size: 48px;
     line-height: 56px;
   }
-
   .banner-content p {
     font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 25px;
   }
-
   .banner-content a {
-    padding: 12px 25px;
     font-size: 18px;
   }
 
@@ -353,7 +360,7 @@
   /* about-us */
   .about {
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 60px 60px;
   }
 
   .image1 {
@@ -368,22 +375,20 @@
 
   .about-us-text {
     width: 100%;
-    margin-left: 0;
   }
 
   .about-us-text .contain {
     font-size: 18px;
+    text-align: left;
+
   }
   
   /* ideas & plans */
   .professionals {
     padding: 80px 40px;
-    flex-direction: column;
-  }
-
+  } 
   .container {
     flex-direction: column;
-    align-items: center;
   }
 
   .professional-heading {
@@ -395,8 +400,7 @@
   }
 
   .profess-parts {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
   }
 
   .profess-parts-icon {
@@ -509,17 +513,10 @@
     font-size: 18px;
     text-align: center;
   }
-
-  .customer-card-review-row1,
-  .customer-card-review-row2 {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .customer-review-card {
-    width: 48%;
-    margin-bottom: 30px;
-    height: auto;
+    width: 100%;
+    
+    height:auto;
   }
 
   .customer-face {
@@ -539,12 +536,11 @@
 
   /* talking */
   .talking {
-    padding: 80px 40px;
+    padding: 60px 60px;
   }
 
   .form-section {
     width: 50%;
-    padding: 15px;
   }
 
   .talking-headers {
@@ -569,16 +565,21 @@
   }
 
   .image-section {
-    width: 50%;
-    justify-content: center;
+    width: 100%;
+   
+    display: flex;
+    flex-direction:row;
   }
 
-  .talking-image {
-    width: 80%;
+  .image-section  .talking-image {
+    width: 100%;
     height: auto;
-  }
 
-  
+  }
+  /* iframe */
+  .map iframe {
+    height: 300px;
+}
 /* Contact */
   .contact {
     padding: 80px 30px; 
@@ -615,337 +616,465 @@
   .footer-theme {
     font-size: 16px; 
   }
-}
-
-
-/* Small Phones (0 - 480px) */
-@media (max-width: 480px) {
+} 
+  
+/* Laptops (769px ) */
+@media (min-width: 769px)  {
   /* banner section */
   .banner {
-    padding: 60px 20px;
-    background-attachment: scroll;
+      padding: 100px 80px;
+      background-image: url(../images/background_1.jpg);
+      background-position: cover;
+    }
+  
+    .banner-content h1 {
+      font-size: 80px;
+      line-height: 90px;
+    }
+  
+    .banner-content p {
+      font-size: 24px;
+    }
+  
+    .banner-content a {
+      font-size: 20px;
+    }
+  
+    /* card section */
+    .service {
+      padding: 100px 70px;
+    }
+  
+    .service-card {
+      width:30%;
+      height:300px;
+      margin-bottom: 30px;
+    }
+    .service-card-header {
+      font-size: 28px;
+    }
+  
+    .serivce-card-paragraph {
+      font-size: 18px;
+    }
+  
+    /* about-us */
+    .about {
+      flex-direction: row;
+      padding: 75px 100px;
+    }
+    
+    .image1 {
+      width:100%;
+      margin-left: 30px;
+    }
+  
+    .about-us {
+      font-size: 48px;
+    }
+  
+    .about-us-text .contain {
+      font-size: 18px;
+    }
+  
+    
+  
+  /* ideas & plans */
+  .professionals {
+    padding: 100px 60px;
+    flex-direction: row;
+    justify-items:center;
+  }
+
+  .professional-heading {
+    font-size: 40px;
+  }
+
+  .professional-paragrph {
+    font-size: 18px;
+  }
+
+  .profess-parts-icon {
+    font-size: 60px;
+  }
+
+  .professional-images {
+    width:100%;
+    padding-left: 30px;
+  }
+  .professional-img{
+    width:400px;
+  }
+  
+    /* fectures section */
+    .section-features {
+      padding: 100px 60px;
+    }
+  
+    .fectures-intro {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  
+    .fecture-heading {
+      font-size: 40px;
+    }
+  
+    .fecture-paragraph {
+      font-size: 18px;
+    }
+  
+    .fectures-name {
+      height: auto;
+      font-size: 20px;
+      padding-top: 23px;
+      padding-left: 30px;
+      margin-top: 20px;
+    }
+  
+    .fectures-icorn {
+      font-size: 34px;
+    }
+  
+    /* Portfolio  */
+
+    .portfolio-section {
+      padding: 50px 60px;
+    }
+  
+    .portfolio-heading {
+      font-size: 40px;
+      text-align:center;
+    }
+  
+    .portfolio-paragraph {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  
+    .portfolio-item {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      
+    }
+  
+    .pi-img {
+      width: 30%;
+      height: 350px;
+      margin-bottom: 10px;
+    }
+  
+     /* watch the video */
+     .video-contain {
+      padding: 100px 60px;
+    }
+  
+    .video-heading {
+      font-size: 40px;
+    }
+  
+    .video-paragraph {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .video-img {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .videoes-images {
+      width: 100%;
+      height: auto;
+    }
+  
+    .play-button {
+      font-size: 38px;
+      padding: 14px;
+    }
+  
+    /*  Customer Testimonials */
+  
+    .customer-handing {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .customer-paragraph {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .customer-review-card {
+      width: 50%;
+      height:auto;
+    }
+  
+    .customer-face {
+      width: 90px;
+      height: 90px;
+      margin-top: 30px;
+    }
+  
+    .customer-name-handing {
+      font-size: 24px;
+      margin-top: 25px;
+    }
+  
+    .review-star {
+      font-size: 22px;
+    }
+
+    .customer-card-review-row1{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .customer-card-review-row2{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    /* talking */
+    .talking {
+      padding:100px 60px;
+      display:flex;
+      flex-direction:column ;
+      justify-items: center;
+    }
+  
+    .form-section {
+      width:50%;
+      padding: 20px;
+      align-content: center;
+    }
+  
+    .talking-headers {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .talking-paragraph {
+      font-size: 18px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    form input {
+      padding: 16px;
+      margin-bottom: 10px;
+    }
+  
+    form button {
+      width: 160px;
+      padding: 24px;
+    }
+  
+    .image-section {
+      width:50%;
+    
+    }
+  
+    .talking-image {
+      width: 550px;
+    height: auto;
+    }
+    /* iframe */
+    .map iframe {
+      height: 350px;
+  }
+    /* Contact */
+    .contact {
+      padding: 100px 40px;
+    }
+  
+    .contact-item {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .information-card {
+      width: 30%; 
+    }
+  
+    .contact-card-header {
+      font-size: 24px; 
+    }
+  
+    .contact-card-paragraph {
+      font-size: 18px; 
+    }
+  
+    /* footer */
+    .footers {
+      padding: 5px 80px; 
+    }
+  
+    .footers-intro {
+      font-size: 18px; 
+      text-align: left; 
+    }
+  
+    .footer-theme {
+      font-size: 18px; 
+    }
+    
+}
+  
+/* Desktop (1280px and above) */
+@media (min-width: 1280px) {
+  /* banner section */
+  .banner {
+    padding: 120px 100px;
     background-image: url(../images/background_1.jpg);
-    background-position: cover;
+    background-size: cover;
   }
 
   .banner-content h1 {
-    font-size: 36px;
-    line-height: 44px;
+    font-size: 96px;
+    line-height: 110px;
   }
 
   .banner-content p {
-    font-size: 16px;
-    padding-top: 5px;
-    padding-bottom: 20px;
+    font-size: 28px;
   }
 
   .banner-content a {
-    padding: 10px 20px;
-    font-size: 16px;
-  }
-  /* card section */
-  .service {
-    padding: 60px 20px;
-  }
-
-  .service-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-  .service-card-header {
     font-size: 24px;
   }
 
-  .serivce-card-paragraph {
-    font-size: 16px;
+  /* card section */
+  .service {
+    padding: 120px 100px;
+  }
+
+  .service-card {
+    width: 30%;
+    height: 350px;
+    margin-bottom: 40px;
   }
 
   /* about-us */
   .about {
-    flex-direction: column;
-    padding: 40px 20px;
-  }
-
-  .image1 {
-    width: 100%;
-    margin-bottom: 20px;
+    flex-direction: row;
+    padding: 100px 120px;
   }
 
   .about-us {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .about-us-text {
-    width: 100%;
-    margin-left: 0;
+    font-size: 56px;
   }
 
   .about-us-text .contain {
-    font-size: 16px;
-  }
-
-  /* ideas&plans */
-  .professionals {
-    padding: 50px 20px;
-    flex-direction: column;
-  }
-
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .professional-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .professional-paragrph {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .profess-parts {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .profess-parts-icon {
-    font-size: 50px;
-    margin-bottom: 15px;
-  }
-
-  .ideas-heading {
     font-size: 20px;
-    text-align: center;
   }
 
-  .ideas-paragrph {
-    font-size: 16px;
-    text-align: center;
+  .image1 {
+    width: 60%;
+    margin-left: 40px;
+  }
+
+  /* ideas & plans */
+  .professionals {
+    padding: 120px 80px;
+
   }
 
   .professional-images {
-    width: 100%;
-    margin-top: 30px;
-    padding-left: 0;
+    width: 40%;
+    margin-left: 30px;
+    display:flex;
+    flex-direction: row;
   }
 
-  /* fectures section */
-  .section-features {
-    padding: 50px 20px;
-  }
-
-  .fectures-intro {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .fecture-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .fecture-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .fectures-name {
-    height: auto;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-left: 20px;
-    margin-top: 15px;
-  }
-
-  .fectures-icorn {
-    font-size: 30px;
-  }
-
-  /* Portfolio  */
-  .portfolio-section {
-    padding: 50px 20px;
-  }
-
-  .portfolio-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .portfolio-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
+  /* Portfolio */
   .portfolio-item {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .pi-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  /* watch the video */
-  .video-contain {
-    padding: 50px 20px;
-  }
-
-  .video-heading {
-    font-size: 28px;
-  }
-
-  .video-paragraph {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .video-img {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .videoes-images {
-    width: 100%;
-    height: auto;
-  }
-
-  .play-button {
-    font-size: 30px;
-    padding: 10px;
-  }
-
-  /*  Customer Testimonials */
-  .customer-testimonials {
-    padding: 50px 20px;
+    width:30%;
+    height:400px;
+    margin-bottom: 20px;
   }
 
   .customer-handing {
-    font-size: 28px;
+    font-size: 40px;
     text-align: center;
   }
 
   .customer-paragraph {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
   }
 
-  .customer-card-review-row1,
-  .customer-card-review-row2 {
-    display: block;
-    padding: 0;
-  }
 
   .customer-review-card {
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
+    width: 50%;
+    height:auto;
   }
 
   .customer-face {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
   }
 
   .customer-name-handing {
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 24px;
+    margin-top: 25px;
   }
 
   .review-star {
-    font-size: 20px;
+    font-size: 22px;
   }
 
-  /* talking */
-  .talking {
-    padding: 50px 20px;
+  .customer-card-review-row1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .form-section {
-    width: 100%;
-    padding: 10px;
+  .customer-card-review-row2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
   }
+  /* iframe */
+  .map iframe {
+    height: 400px;
+}
 
-  .talking-headers {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .talking-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  form input {
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 12px;
-  }
-
-  form button {
-    width: 100%;
-    padding: 20px;
-    font-size: 16px;
-  }
-
-  .image-section {
-    width: 100%;
-    margin-top: 20px;
-    justify-content: center;
-  }
-
-  .talking-image {
-    width: 100%;
-    max-width: 350px;
-    height: auto;
-  }
-  
-/* Contact */
+  /* Contact */
   .contact {
-    padding: 60px 20px; 
+    padding: 120px 100px;
   }
 
   .contact-item {
-    flex-direction: column; 
-    align-items: center;
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .information-card {
-   width: 80%; 
-    margin: 15px 0;
-  }
-
-  .contact-card-header {
-    font-size: 24px; 
-  }
-
-  .contact-card-paragraph {
-    font-size: 18px; 
+    width: 30%;
+    height:350px;
   }
 
   /* footer */
   .footers {
-    padding: 5px 20px; 
+    padding: 40px 120px;
   }
 
   .footers-intro {
-    font-size: 16px;
-    text-align: center; 
+    font-size: 20px;
+    text-align: left;
   }
 
   .footer-theme {
-    font-size: 14px; 
+    font-size: 18px;
   }
 }
