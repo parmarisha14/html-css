@@ -1,1080 +1,580 @@
-/* Small Phones (0) */
-@media (min-width:0px) {
-
-  /* banner section */
-  .banner {
-    padding: 60px 20px;
-    background-attachment: scroll;
-    background-image: url(../images/background_1.jpg);
-    background-position: cover;
-  }
-
-  .banner-content h1 {
-    font-size: 36px;
-    line-height: 44px;
-  }
-
-  .banner-content p {
-    font-size: 16px;
-  }
-
-  .banner-content a {
-    font-size: 16px;
-  }
-
-  /* card section */
-  .service {
-    padding: 60px 20px;
-  }
-
-  .service-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .service-card-header {
-    font-size: 24px;
-  }
-
-  .serivce-card-paragraph {
-    font-size: 16px;
-  }
-
-  /* about-us */
-  .about {
-    flex-direction: column;
-    padding: 40px 20px;
-  }
-
-  .image1 {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .about-us {
-    font-size: 36px;
-    text-align:center;
-  }
-
-  .about-us-text {
-    width:auto;
-  }
-
-  .about-us-text .contain {
-    font-size: 16px;
-  }
-
-  /* ideas&plans */
-  .professionals {
-    padding: 50px 20px;
-  }
-
-  .container {
-    flex-direction: column;
-  }
-
-  .professional-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .professional-paragrph {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .profess-parts {
-    flex-direction: row;
-  }
-
-  .profess-parts-icon {
-    font-size: 50px;
-    margin-bottom: 15px;
-  }
-
-  .ideas-heading {
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .ideas-paragrph {
-    font-size: 16px;
-  
-  }
-
-  .professional-images {
-    width:auto;
-    margin-top: 30px;
-  }
-
-  /* fectures section */
-  .section-features {
-    padding: 50px 20px;
-  }
-
-  .fectures-intro {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .fecture-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .fecture-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
-  }
-
-  .fectures-name {
-    height: auto;
-    font-size: 16px;
-    padding-top: 15px;
-    padding-left: 20px;
-    margin-top: 15px;
-  }
-
-  .fectures-icorn {
-    font-size: 30px;
-  }
-
-  /* Portfolio  */
-  .portfolio-section {
-    padding: 50px 20px;
-  }
-
-  .portfolio-heading {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .portfolio-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .portfolio-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .pi-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  /* watch the video */
-  .video-contain {
-    padding: 50px 20px;
-  }
-
-  .video-heading {
-    font-size: 28px;
-  }
-
-  .video-paragraph {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .video-img {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .videoes-images {
-    width: 100%;
-    height: auto;
-  }
-
-  .play-button {
-    font-size: 30px;
-    padding: 10px;
-  }
-
-  /*  Customer Testimonials */
-  .customer-testimonials {
-    padding: 50px 20px;
-  }
-
-  .customer-handing {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .customer-paragraph {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  .customer-review-card {
-    width: 100%;
-    margin-bottom: 30px;
-    height: auto;
-  }
-
-  .customer-face {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
-  }
-
-  .customer-name-handing {
-    font-size: 22px;
-    margin-top: 20px;
-  }
-
-  .review-star {
-    font-size: 20px;
-  }
-
-  /* talking */
-  .talking {
-    padding: 60px 0px;
-    
-  }
-
-  .form-section {
-    width:50%;
-    padding: 10px;
-  }
-
-  .talking-headers {
-    font-size: 28px;
-    text-align: center;
-  }
-
-  .talking-paragraph {
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-
-  form input {
-    width: 100%;
-    padding: 14px;
-    margin-bottom: 12px;
-  }
-
-  form button {
-    width: 100%;
-    padding: 20px;
-    font-size: 16px;
-  }
-
-  .image-section {
-    width:50%;
-    margin-top: 20px;
-    justify-content: center;
-  }
-  
-  .image-section .talking-image {
-    width: 316px;
-    height: auto;
-  }
-  /* iframe */
-  .map iframe {
-    height: 250px;
-  }
-    
-  /* Contact */
-    .contact {
-      padding: 60px 20px; 
+@media(max-width:1420px) {
+    /* banner section */
+    .banner{
+        padding:120px 150px;   
     }
-    .information-card {
-     width: 100%; 
-      margin-top: 15px;
+    .banner-content h1{
+        font-size:110px;
+        line-height:120px;
     }
-  
-    .contact-card-header {
-      font-size: 24px; 
+    .banner-content p{
+        font-size:28px;
     }
-  
-    .contact-card-paragraph {
-      font-size: 18px; 
-    }
-  
-    /* footer */
-    .footers {
-      padding: 5px 20px; 
-    }
-  
-    .footers-intro {
-      font-size: 16px;
-      text-align: center; 
-    }
-  
-    .footer-theme {
-      font-size: 14px; 
-    }
-  }
-
- /* Tablets (481px) */
- @media (min-width: 481px){
-    
-  /* banner section */
-  .banner {
-    padding: 80px 50px;
-    background-attachment: scroll;
-    background-image: url(../images/background_1.jpg);
-    background-position: cover;
-  }
-
-  .banner-content h1 {
-    font-size: 48px;
-    line-height: 56px;
-  }
-  .banner-content p {
-    font-size: 18px;
-  }
-  .banner-content a {
-    font-size: 18px;
-  }
-
-  /* card section */
-  .service {
-    padding: 80px 50px;
-  }
-
-  .service-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 30px;
-  }
-
-  .service-card-header {
-    font-size: 26px;
-  }
-
-  .serivce-card-paragraph {
-    font-size: 18px;
-  }
-
-  /* about-us */
-  .about {
-    flex-direction: column;
-    padding: 60px 60px;
-  }
-
-  .image1 {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
-  .about-us {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .about-us-text {
-    width: 100%;
-  }
-
-  .about-us-text .contain {
-    font-size: 18px;
-    text-align: left;
-
-  }
-  
-  /* ideas & plans */
-  .professionals {
-    padding: 80px 40px;
-  } 
-  .container {
-    flex-direction: column;
-  }
-
-  .professional-heading {
-    font-size: 36px;
-  }
-
-  .professional-paragrph {
-    font-size: 18px;
-  }
-
-  .profess-parts {
-    flex-direction: row;
-  }
-
-  .profess-parts-icon {
-    font-size: 60px;
-  }
-
-  .professional-images {
-    width: 100%;
-    margin-top: 30px;
-  }
-
-  /* fectures section */
-    .section-features {
-    padding: 80px 40px;
-  }
-
-  .fectures-intro {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .fecture-heading {
-    font-size: 36px;
-  }
-
-  .fecture-paragraph {
-    font-size: 18px;
-  }
-
-  .fectures-name {
-    height: auto;
-    font-size: 18px;
-    padding-top: 20px;
-    padding-left: 25px;
-    margin-top: 20px;
-  }
-
-  .fectures-icorn {
-    font-size: 32px;
-  }
-
-  /* Portfolio  */
-  .portfolio-section {
-    padding: 80px 40px;
-  }
-
-  .portfolio-heading {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .portfolio-paragraph {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 40px;
-  }
-
-  .portfolio-item {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-
-  .pi-img {
-    width: 45%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-   /* watch the video */
-   .video-contain {
-    padding: 80px 40px;
-  }
-
-  .video-heading {
-    font-size: 36px;
-  }
-
-  .video-paragraph {
-    font-size: 18px;
-    text-align: center;
-  }
-
-  .video-img {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .videoes-images {
-    width: 100%;
-    height: auto;
-  }
-
-  .play-button {
-    font-size: 35px;
-    padding: 12px;
-  }
-
-  /*  Customer Testimonials */
-  .customer-testimonials {
-    padding: 70px 40px;
-  }
-
-  .customer-handing {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .customer-paragraph {
-    font-size: 18px;
-    text-align: center;
-  }
-  .customer-review-card {
-    width: 100%;
-    
-    height:auto;
-  }
-
-  .customer-face {
-    width: 90px;
-    height: 90px;
-    margin-top: 20px;
-  }
-
-  .customer-name-handing {
-    font-size: 24px;
-    margin-top: 25px;
-  }
-
-  .review-star {
-    font-size: 22px;
-  }
-
-  /* talking */
-  .talking {
-    padding: 60px 60px;
-  }
-
-  .form-section {
-    width: 50%;
-  }
-
-  .talking-headers {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .talking-paragraph {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 18px;
-  }
-
-  form input {
-    padding: 14px;
-    margin-bottom: 12px;
-  }
-
-  form button {
-    width: 100%;
-    padding: 22px;
-  }
-
-  .image-section {
-    width: 100%;
-   
-    display: flex;
-    flex-direction:row;
-  }
-
-  .image-section  .talking-image {
-    width: 100%;
-    height: auto;
-
-  }
-  /* iframe */
-  .map iframe {
-    height: 300px;
-}
-/* Contact */
-  .contact {
-    padding: 80px 30px; 
-  }
-
-  .contact-item {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
- .information-card {
-    width: 45%; 
-    margin: 10px 0;
-  }
-
-  .contact-card-header {
-    font-size: 26px; 
-  }
-
-  .contact-card-paragraph {
-    font-size: 18px;
-  }
-
-  /* footer */
-  .footers {
-    padding: 5px 40px; 
-  }
-
-  .footers-intro {
-    font-size: 18px; 
-    text-align: center;
-  }
-
-  .footer-theme {
-    font-size: 16px; 
-  }
-} 
-  
-/* Laptops (769px ) */
-@media (min-width: 769px)  {
-  /* banner section */
-  .banner {
-      padding: 100px 80px;
-      background-image: url(../images/background_1.jpg);
-      background-position: cover;
-    }
-  
-    .banner-content h1 {
-      font-size: 80px;
-      line-height: 90px;
-    }
-  
-    .banner-content p {
-      font-size: 24px;
-    }
-  
     .banner-content a {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
-    /* card section */
+
+    /* section-card */
     .service {
-      padding: 100px 70px;
+        padding: 120px 0px;
     }
-  
-    .service-card {
-      width:30%;
-      height:300px;
-      margin-bottom: 30px;
-    }
-    .service-card-header {
-      font-size: 28px;
-    }
-  
-    .serivce-card-paragraph {
-      font-size: 18px;
-    }
-  
-    /* about-us */
-    .about {
-      flex-direction: row;
-      padding: 75px 100px;
-    }
-    
-    .image1 {
-      width:100%;
-      margin-left: 30px;
-    }
-  
-    .about-us {
-      font-size: 48px;
-    }
-  
-    .about-us-text .contain {
-      font-size: 18px;
-    }
-  
-    
-  
-  /* ideas & plans */
-  .professionals {
-    padding: 100px 60px;
-    flex-direction: row;
-    justify-items:center;
-  }
 
-  .professional-heading {
-    font-size: 40px;
-  }
-
-  .professional-paragrph {
-    font-size: 18px;
-  }
-
-  .profess-parts-icon {
-    font-size: 60px;
-  }
-
-  .professional-images {
-    width:100%;
-    padding-left: 30px;
-  }
-  .professional-img{
-    width:400px;
-  }
-  
-    /* fectures section */
-    .section-features {
-      padding: 100px 60px;
-    }
-  
-    .fectures-intro {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-  
-    .fecture-heading {
-      font-size: 40px;
-    }
-  
-    .fecture-paragraph {
-      font-size: 18px;
-    }
-  
-    .fectures-name {
-      height: auto;
-      font-size: 20px;
-      padding-top: 23px;
-      padding-left: 30px;
-      margin-top: 20px;
-    }
-  
-    .fectures-icorn {
-      font-size: 34px;
-    }
-  
     /* Portfolio  */
-
     .portfolio-section {
-      padding: 50px 60px;
+        padding:120px 40px;  
     }
-  
-    .portfolio-heading {
-      font-size: 40px;
-      text-align:center;
+    .pi-img{
+        width:30%;
     }
-  
-    .portfolio-paragraph {
-      font-size: 18px;
-      text-align: center;
-      margin-bottom: 50px;
-    }
-  
-    .portfolio-item {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row;
-      
-    }
-  
-    .pi-img {
-      width: 30%;
-      height: 350px;
-      margin-bottom: 10px;
-    }
-  
-     /* watch the video */
-     .video-contain {
-      padding: 100px 60px;
-    }
-  
-    .video-heading {
-      font-size: 40px;
-    }
-  
-    .video-paragraph {
-      font-size: 18px;
-      text-align: center;
-    }
-  
-    .video-img {
-      width: 80%;
-      margin: 0 auto;
-    }
-  
-    .videoes-images {
-      width: 100%;
-      height: auto;
-    }
-  
-    .play-button {
-      font-size: 38px;
-      padding: 14px;
-    }
-  
+
     /*  Customer Testimonials */
-  
-    .customer-handing {
-      font-size: 40px;
-      text-align: center;
-    }
-  
-    .customer-paragraph {
-      font-size: 18px;
-      text-align: center;
-    }
-  
-    .customer-review-card {
-      width: 50%;
-      height:auto;
-    }
-  
-    .customer-face {
-      width: 90px;
-      height: 90px;
-      margin-top: 30px;
-    }
-  
-    .customer-name-handing {
-      font-size: 24px;
-      margin-top: 25px;
-    }
-  
-    .review-star {
-      font-size: 22px;
+    .customer-testimonials{
+        padding:90px 52px;
     }
 
-    .customer-card-review-row1{
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .customer-card-review-row2{
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-    }
     /* talking */
     .talking {
-      padding:100px 60px;
-      display:flex;
-      flex-direction:column ;
-      justify-items: center;
+        padding: 120px 70px;
     }
-  
+
+    /* Contact */
+    .contact{
+        padding:120px 0px ;
+    }
+
+      /* iframe */
+    .map iframe {
+        width:100%;
+    }
+
+}
+@media(max-width:1280px){
+
+    /* banner section */
+    .banner{
+        padding:100px 80px;    
+    }
+    .banner-content h1{
+        font-size:80px;
+        line-height:90px;
+    }
+    .banner-content p{
+        font-size:24px;
+    }
+    .banner-content a {
+        font-size: 20px;
+    }
+
+    /* card section */
+    .service {
+        padding: 100px 80px;
+    }
+    .service-card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .service-card-header {
+        font-size: 28px;
+    }
+    .serivce-card-paragraph {
+        font-size: 18px;
+    }
+
+    /* about-us */
+    .about {
+        padding: 75px 100px;
+    }
+    .image1 {
+        width: 50%;
+    }
+    .about-us-text {
+        width: 50%;
+    }
+    .about-us {
+        font-size:48px;
+    }
+    .about-us-text .contain {
+        font-size: 18px;
+    }
+
+    /* ideas & plans */
+    .professionals {
+        padding: 100px 60px;
+    }
+    .professional-heading {
+        font-size: 40px;
+    }
+    .professional-paragrph {
+        font-size: 18px;
+    }
+    .profess-parts-icon {
+        font-size: 60px;
+    }
+    .professional-images {
+        width: 50%;
+        padding-left: 30px;
+    }
+
+     /* fectures section */
+     .section-features {
+        padding: 80px 40px;
+    }
+
+    /* Portfolio  */
+    .portfolio-section {
+        padding: 100px 60px;
+     }
+
+     /* watch the video */
+    .video-contain {
+         padding: 100px 60px;
+    }
+    .video-img {
+        width: 80%;
+    }
+    .videoes-images {
+        width: 100%;
+    }
+    /*  Customer Testimonials */
+    .customer-testimonials{
+        padding:90px 52px;
+    } 
+    .customer-review-card {
+        width: 30%;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+     /* talking */
+     .talking {
+        padding: 100px 90px;
+    }
     .form-section {
-      width:50%;
-      padding: 20px;
-      align-content: center;
-    }
-  
+        width:50%;
+        padding: 20px;
+      }
     .talking-headers {
-      font-size: 40px;
-      text-align: center;
+        font-size: 40px;
+        text-align: center;
     }
-  
     .talking-paragraph {
-      font-size: 18px;
-      text-align: center;
-      margin-bottom: 20px;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 20px;
     }
-  
     form input {
-      padding: 16px;
-      margin-bottom: 10px;
+        padding: 16px;
+        margin-bottom: 10px;
     }
-  
     form button {
-      width: 160px;
-      padding: 24px;
+        width: 160px;
+        padding: 24px;
     }
-  
     .image-section {
-      width:50%;
-    
+        width:75%;
     }
-  
-    .talking-image {
-      width: 550px;
-    height: auto;
+    .image-section .talking-image {
+        width: 75%;
+        height: auto;
     }
+
+    /* Contact */
+    .contact{
+        padding: 100px 80px;
+    }
+    .information-card {
+        width: 45%;
+        margin-bottom: 30px;
+    }
+    .contact-card-header {
+        font-size: 28px;
+    }
+    .contact-card-paragraph{
+        font-size: 18px;
+    }
+
     /* iframe */
     .map iframe {
-      height: 350px;
-  }
-    /* Contact */
-    .contact {
-      padding: 100px 40px;
+        width:100%;
     }
-  
-    .contact-item {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    .information-card {
-      width: 30%; 
-    }
-  
-    .contact-card-header {
-      font-size: 24px; 
-    }
-  
-    .contact-card-paragraph {
-      font-size: 18px; 
-    }
-  
+
     /* footer */
     .footers {
-      padding: 5px 80px; 
+        padding: 5px 80px; 
     }
-  
     .footers-intro {
-      font-size: 18px; 
-      text-align: left; 
+        font-size: 18px; 
+        text-align: left; 
     }
-  
     .footer-theme {
-      font-size: 18px; 
+        font-size: 18px; 
+    }
+}
+
+@media(max-width:768px){
+    /* headers */
+    header{
+        padding:0px 30px;
+    }
+    header .container{
+        padding:0px 0px;
+    }
+    header li{
+        margin-left:5px;
+     }
+     .logo-text{
+        padding:0px;
+        font-size:20px; 
+    }
+
+    /* banner section */
+    .banner{
+        padding:80px 50px;
+    }
+    .banner-content h1{
+        font-size:48px;
+        line-height:60px;
+    }
+    .banner-content p{
+        font-size:28px;
+    }
+    .banner-content a {
+        font-size: 24px;
+    }
+
+    /* card section */
+    .service {
+        padding: 80px 50px;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .service-card-header {
+        font-size: 26px;
+    }
+    .serivce-card-paragraph {
+        font-size: 18px;
+    }
+
+    /* about-us */
+    .about {
+        flex-direction: column;
+        padding: 60px 40px;
+      }
+    .image1 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-us {
+        font-size: 40px;
+        text-align: center;
+    }
+    .about-us-text {
+        width: 100%;
+    }
+    .about-us-text .contain {
+        font-size: 18px;
+    }
+
+    /* ideas & plans */
+    .professionals {
+        padding: 80px 40px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .professional-heading {
+        font-size: 36px;
+    }
+    .professional-paragrph {
+        font-size: 18px;
+    }
+    .profess-parts-icon {
+        font-size: 60px;
+    }
+    .professional-images {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Portfolio  */
+    .portfolio-section {
+        padding: 80px 40px;
+    }
+    .portfolio-item {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .pi-img {
+        width:100%;
+        margin-bottom: 20px;
+    }
+
+      /*  Customer Testimonials */
+    .customer-testimonials {
+         padding: 70px 40px;
+     }
+    .customer-handing {
+        font-size: 36px;
+        text-align: center;
+    }
+    .customer-paragraph {
+        font-size: 18px;
+        text-align: center;
+    }
+     .customer-review-card {
+        width: 100%;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .customer-name-handing {
+        font-size: 24px;
+        margin-top: 25px;
+    }
+    .review-star {
+        font-size: 22px;
     }
     
-}
-  
-/* Desktop (1280px and above) */
-@media (min-width: 1280px) {
-  /* banner section */
-  .banner {
-    padding: 120px 100px;
-    background-image: url(../images/background_1.jpg);
-    background-size: cover;
-  }
+    /* talking */
+    .talking {
+        padding: 80px 40px;
+    }
+    .form-section {
+         width: 50%;
+         padding: 15px;
+    }
+    .talking-headers {
+         font-size: 36px;
+         text-align: center;
+    }
+    .talking-paragraph {
+         font-size: 18px;
+         text-align: center;
+         margin-bottom: 18px;
+    }
+    form input {
+         padding: 14px;
+         margin-bottom: 12px;
+    }
+    form button {
+        width: 100%;
+        padding: 22px;
+    }
+    .image-section {
+        width: 50%;
+        justify-content: center;
+     }
+    .talking-image {
+        width: 80%;
+        height: auto;
+    }
+    /* Contact */
+    .contact {
+        padding: 80px 50px;
+    }
+    .information-card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-card-header {
+        font-size: 26px;
+    }
+    .contact-card-paragraph {
+        font-size: 18px;
+    }
 
-  .banner-content h1 {
-    font-size: 96px;
-    line-height: 110px;
-  }
+    /* iframe */
+    .map iframe {
+        width:100%;
+    }
 
-  .banner-content p {
-    font-size: 28px;
-  }
-
-  .banner-content a {
-    font-size: 24px;
-  }
-
-  /* card section */
-  .service {
-    padding: 120px 100px;
-  }
-
-  .service-card {
-    width: 30%;
-    height: 350px;
-    margin-bottom: 40px;
-  }
-
-  /* about-us */
-  .about {
-    flex-direction: row;
-    padding: 100px 120px;
-  }
-
-  .about-us {
-    font-size: 56px;
-  }
-
-  .about-us-text .contain {
-    font-size: 20px;
-  }
-
-  .image1 {
-    width: 60%;
-    margin-left: 40px;
-  }
-
-  /* ideas & plans */
-  .professionals {
-    padding: 120px 80px;
-
-  }
-
-  .professional-images {
-    width: 40%;
-    margin-left: 30px;
-    display:flex;
-    flex-direction: row;
-  }
-
-  /* Portfolio */
-  .portfolio-item {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-
-  .pi-img {
-    width:30%;
-    height:400px;
-    margin-bottom: 20px;
-  }
-
-  .customer-handing {
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .customer-paragraph {
-    font-size: 18px;
-    text-align: center;
-  }
-
-
-  .customer-review-card {
-    width: 50%;
-    height:auto;
-  }
-
-  .customer-face {
-    width: 90px;
-    height: 90px;
-    margin-top: 30px;
-  }
-
-  .customer-name-handing {
-    font-size: 24px;
-    margin-top: 25px;
-  }
-
-  .review-star {
-    font-size: 22px;
-  }
-
-  .customer-card-review-row1{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .customer-card-review-row2{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  /* iframe */
-  .map iframe {
-    height: 400px;
+    /* footer */
+    .footers {
+        padding: 5px 40px; 
+    }
+    .footers-intro {
+        font-size: 18px; 
+        text-align: center;
+    }
+    .footer-theme {
+        font-size: 16px; 
+    }
 }
 
-  /* Contact */
-  .contact {
-    padding: 120px 100px;
-  }
+@media(max-width:480px){
+    /* headers */
+    nav {
+        display: none;
+    }
+    
+    /* banner section */
+    .banner{
+        padding:60px 20px;
+        background-image: url(../images/background_1.jpg);
+        background-size: cover;
+    }
+    .banner-content h1{
+        font-size:32px;
+        line-height:44px;
+    }
+    .banner-content p{
+        font-size:16px;
+    }
+    .banner-content a {
+        font-size: 16px;
+        padding:10px 20px;
+    }
 
-  .contact-item {
-    display: flex;
-    justify-content: space-between;
-  }
+    /* card section */
+    .service {
+        padding: 60px 20px;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .service-card-header {
+        font-size: 24px;
+    }
+    .serivce-card-paragraph {
+        font-size: 16px;
+    }
+    /* about-us */
+    .about {
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+    .image1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .about-us {
+        font-size: 36px;
+        text-align: center;
+    }
+    .about-us-text {
+        width: 100%;
+        margin-left: 0;
+    }
+    .about-us-text .contain {
+        font-size: 16px;
+    }
 
-  .information-card {
-    width: 30%;
-    height:350px;
-  }
+     /* fectures section */
+    .section-features {
+        padding: 50px 20px;
+    } 
 
-  /* footer */
-  .footers {
-    padding: 40px 120px;
-  }
+     /* Portfolio  */
+    .portfolio-section {
+        padding: 50px 20px;
+    }
 
-  .footers-intro {
-    font-size: 20px;
-    text-align: left;
-  }
+    /* watch the video */
+    .video-contain {
+        padding: 50px 20px;
+    }
+    .video-img {
+        width: 100%;
+    }
+    .video-heading {
+        font-size: 28px;
+    }
+    .video-paragraph {
+        font-size: 16px;
+        text-align: center;
+    }
+    .videoes-images {
+        width: 100%;
+    }
 
-  .footer-theme {
-    font-size: 18px;
-  }
+    /*  Customer Testimonials */
+    .customer-testimonials {
+        padding: 50px 20px;
+    }
+    .customer-review-card {
+        width: 100%;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    .customer-face {
+        width: 90px;
+        height: 90px;
+        margin-top: 20px;
+    }
+    .customer-name-handing {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+    .review-star {
+        font-size: 20px;
+    }
+
+      /* talking */
+    .talking {
+        padding: 80px 40px;
+     }
+    .form-section {
+        width: 100%;
+        padding: 15px;
+    }
+    .talking-headers {
+        font-size: 36px;
+        text-align: center;
+    }
+    .talking-paragraph {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    form input {
+        padding: 14px;
+        margin-bottom: 12px;
+     }
+    form button {
+        width: 100%;
+        padding: 22px;
+    }
+    .image-section {
+        width: 100%;
+        justify-content: center;
+    }
+    .image-section  .talking-image {
+        width: 100%;
+        height: auto;
+    }
+    /* Contact */
+    .contact {
+        padding: 60px 20px;
+    }
+    .service-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .contact-card-header {
+        font-size: 24px;
+    }
+    .contact-card-paragraph {
+        font-size: 16px;
+    }
+      /* iframe */
+      .map iframe {
+        width:100%;
+    }
+     /* footer */
+    .footers {
+        padding: 5px 20px; 
+    }
+
+    .footers-intro {
+        font-size: 16px;
+        text-align: center; 
+    }
+
+    .footer-theme {
+        font-size: 14px; 
+    }
 }
