@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* outline:1px solid white; */
+}
+.d-flex{
+    display:flex;
+    flex-direction: column;
+}
+.contanier{
+    max-width: 100%;
+    height: auto;
+    padding:0px 45px;
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.profile-card{
+    background-color:#000000;
+    padding:120px 110px;
+}
+.section-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width:550px;
+    height:700px;
+    background-color:#28282B;
+    padding:50px 20px;
+}
+.information-card{
+    display:flex;
+    justify-content: center;
+
+}
+.image-section{
+    border-radius: 50%;
+    width:200px;
+    height:auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.section-heading{
+    font-size: 30px;
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-paragraph{
+    font-size: 22px;
+    color:#fff;
+}
+
+.star-icorn{
+    color:#fff;
+    font-size:30px;
+    margin-top:20px;
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+.icorn{
+    font-size:50px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    margin-top:10px;
+}

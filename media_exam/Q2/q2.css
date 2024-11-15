@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height:auto;
+
+}
+.picture-blog{
+    background-color:#1c1c1c; 
+    padding:120px 110px; 
+}
+a{
+    text-decoration: none;
+}
+
+.heading-detail{
+    font-size:90px;
+    color:#fff;
+    text-align: center;
+}
+
+.computer-image{
+    width:400px;
+}
